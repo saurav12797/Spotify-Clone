@@ -1,0 +1,106 @@
+.artistpage h1 {
+  position: relative;
+  top: 45%;
+  left: 23%;
+  font-size: 68px;
+  color: white;
+}
+
+.artistpage {
+  width: 100%;
+  height: 300px;
+  background: rgb(70, 91, 111);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 91, 111, 1) 0%,
+    rgba(84, 110, 135, 1) 38%,
+    rgba(105, 136, 167, 1) 100%
+  );
+  position: relative;
+  left: 16%;
+}
+
+.imgbanner {
+  border-radius: 50%;
+  position: relative;
+
+  left: 5%;
+  width: 180px;
+}
+.imgsong {
+  width: 50px;
+  position: relative;
+  left: 10%;
+  top: 10%;
+}
+
+/* artist Detail section */
+
+.songs {
+  width: 100%;
+  height: 100vh;
+  background: rgb(40, 50, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(40, 50, 60, 1) 0%,
+    rgba(30, 36, 42, 1) 46%,
+    rgba(25, 28, 32, 1) 100%
+  );
+}
+
+.songs h2 {
+  position: relative;
+  left: 6%;
+  top: 5%;
+}
+
+.icon {
+  position: relative;
+  left: 5%;
+  top: 3%;
+  width: 50px;
+}
+
+.btn {
+  position: relative;
+  left: 8%;
+  top: 1%;
+  padding: 8px 15px;
+  background-color: transparent;
+  border: 0.1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.songlist img {
+  float: left;
+}
+
+.downloads {
+  position: relative;
+  left: 35%;
+  margin-top: -20px;
+}
+
+.duration {
+  position: relative;
+  left: 75%;
+  margin-top: -25px;
+}
+
+.songlist {
+  position: relative;
+  top: 10%;
+}
+
+.songName {
+  padding-top: 15px;
+}
+
+.songlist ul li {
+  list-style: none;
+  display: inline;
+}
+
+.songlist ul {
+  display: inline;
+}
