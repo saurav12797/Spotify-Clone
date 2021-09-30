@@ -1,0 +1,114 @@
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  height: 35px;
+  width: 97%;
+  background-color: #181818;
+  padding: 20px;
+  color: white;
+}
+
+.footerbtn div {
+  position: relative;
+  left: 650px;
+  margin-bottom: 70px;
+}
+
+.footer_left {
+  flex: 0.1;
+}
+
+.footer_center {
+  flex: 0.4;
+  padding: 0 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+.SkipPreviousIcon:hover,
+.SkipNextIcon:hover,
+.ShuffleIcon:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+.SkipNextIcon {
+  position: relative;
+  left: 34%;
+  bottom: 30%;
+}
+.SkipPreviousIcon {
+  position: relative;
+  left: 17%;
+  bottom: 30%;
+}
+.ShuffleIcon {
+  position: relative;
+  left: 10%;
+  bottom: 30%;
+}
+.RepeatIcon {
+  position: relative;
+  left: 40%;
+  bottom: 30%;
+}
+.VolumeDownIcon {
+  position: relative;
+  left: 25%;
+  top: 55%;
+}
+.audiobar {
+  height: 2px;
+}
+
+.footer__right {
+  position: relative;
+  top: 45%;
+  right: 2%;
+}
+.footer_right {
+  flex: 0.3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer_songInfo > h4 {
+  margin-bottom: 5px;
+}
+
+.footer_songInfo > p {
+  font-size: 12px;
+}
+
+/* progress bar */
+
+/* progress bar - chrome and safari */
+
+.progress {
+  position: relative;
+  left: 130%;
+  top: 35%;
+
+  color: #1d1d1d;
+}
+.progressBar {
+  width: 500px;
+  height: 1.5px;
+}
+
+.currentTime {
+  position: absolute;
+  top: 10%;
+  right: 102%;
+}
+
+.trackDuration {
+  position: absolute;
+  top: 10%;
+  left: 102%;
+}

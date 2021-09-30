@@ -1,0 +1,40 @@
+.detail h1 {
+  position: relative;
+  top: 1%;
+  left: 3%;
+}
+
+.detail {
+  background: rgb(33, 33, 33);
+  background: linear-gradient(
+    180deg,
+    rgba(33, 33, 33, 1) 0%,
+    rgba(18, 18, 18, 1) 51%,
+    rgba(18, 18, 18, 1) 100%
+  );
+  position: relative;
+  left: 16%;
+  width: 100%;
+  height: 140vh;
+}
+
+.detail input {
+  position: relative;
+  top: 2%;
+  left: 5%;
+  padding: 8px 50px;
+  border: none;
+  background-color: #2c2c2c;
+  width: 300px;
+  height: 30px;
+}
+
+.newplaylistCard {
+  position: relative;
+  top: 2%;
+}
+
+.searchArtist {
+  position: relative;
+  left: 20%;
+}
